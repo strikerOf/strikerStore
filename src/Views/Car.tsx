@@ -3,8 +3,6 @@ import ArticleComponent from '../Components/ArticleComponent'
 import '../App.css'
 import { ArticleParams } from '../ArticleType';
 
-const api_base = import.meta.env.VITE_API_URL;
-
 const Car: React.FC = () => {
 
     const [mysArticles, setArticles] = useState<ArticleParams[]>([])

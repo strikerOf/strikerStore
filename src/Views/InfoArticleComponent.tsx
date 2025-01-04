@@ -2,11 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 const api_base = import.meta.env.VITE_API_URL;
-import { ArticleParams } from '../ArticleType';
 
-interface RouteParams{
-    id:number;
-}
 interface ArticleDetail{
     id:string;
     category:string;
